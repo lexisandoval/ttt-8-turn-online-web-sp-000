@@ -47,7 +47,7 @@ def turn(board)
   y = input_to_index(x)
 
   if valid_move?(board, y)
-    move(board, y, character = "X")
+    move(board, y, character)
   else
     while !valid_move?(board, y)
       puts "Please enter 1-9:"
