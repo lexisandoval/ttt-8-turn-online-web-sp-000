@@ -54,4 +54,5 @@ def turn(board)
       x = gets.strip
     end
   end
+  display_board(board)
 end
