@@ -50,11 +50,11 @@ def turn(board)
     move(board, y, character = "X")
     display_board(board)
   else
-    while !valid_move?(board, y)
+    #while !valid_move?(board, y)
       puts "Please enter 1-9:"
       x = gets.strip
-    end
+    #end
     display_board(board)
-  end 
+  end
   #turn(board)
 end
